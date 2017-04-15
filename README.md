@@ -13,6 +13,7 @@ Merges the training and the test sets to create one data set.
 Here's a graphic of how I chose to connect the data sets to make one large dataset.
  we end up with a 10299 x 563 data frame
 ![My Figure](figure1.png)
+
 the script uses cbind and rbind to merge the files correctly
 
 The next step is to extracts only the measurements on the mean and standard deviation for each measurement.
