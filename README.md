@@ -17,10 +17,10 @@ Here's a graphic of how I chose to connect the data sets to make one large datas
 the script uses cbind and rbind to merge the files correctly
 
 The next step is to extracts only the measurements on the mean and standard deviation for each measurement.
-the script uses grep to get a logical idnicating the names with the mean and std names and then uses it as an index, creating a smaller dataset with only 88 columns
+the script uses grep to get a logical indicating the names with the mean and std names and then uses it as an index, creating a smaller dataset with only 88 columns
 
 Next the script replaces the integers in the activity column with descriptive activity names as defined by the activity data set - here I got the job done using 
-ifelse rather than some more powerful tool from R
+ifelse() rather than some more powerful tool from R
 
 In order to appropriately label the data set with descriptive variable names - I used the guidance from class: the names should be lowercase, descriptive and not duplicate, with no underscores, dots or white space, characters should be factors 
  
